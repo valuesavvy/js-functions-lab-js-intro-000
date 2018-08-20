@@ -4,18 +4,18 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name){
-  name = James;
+  name = 'James';
   return('Happy holidays, ${name}!')
 }
 
 function happyHolidayTo(holiday, name){
-  holiday = Christmas;
-  name = Chreia;
+  holiday = 'Christmas';
+  name = 'Chreia';
   return('Happy ${holiday}, ${name}!')
 }
 
 function holidayCountdown(days, holiday){
   days = '23'
-  holiday = Christmas
+  holiday = 'Christmas'
   return("It's ${days} days until ${holiday}!")
 }

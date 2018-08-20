@@ -5,17 +5,17 @@ function happyHolidays(){
 
 function happyHolidaysTo(name){
   name = 'you';
-  return('Happy holidays, ${name}!')
+  return('Happy holidays, you!')
 }
 
 function happyHolidayTo(holiday, name){
   holiday = 'Independence';
   name = 'you';
-  return('Happy ${holiday}, ${name}!')
+  return('Happy Independence, you!')
 }
 
 function holidayCountdown(days, holiday){
   days = '20'
   holiday = "Mother's Day"
-  return("It's ${days} days until ${holiday}!")
+  return("It's 20 days until Mother's Day!")
 }
